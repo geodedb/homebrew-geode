@@ -5,14 +5,14 @@
 class Geode < Formula
   desc "ISO/IEC 39075:2024 GQL-compliant property-graph database"
   homepage "https://geodedb.com"
-  version "0.1.6"
+  version "0.1.8"
   license "Apache-2.0"
 
   depends_on "openssl@3"
   depends_on :macos
 
-  url "https://gitlab.com/api/v4/projects/devnw%2Fcodepros%2Fgeode%2Fgeode/packages/generic/geode/0.1.6/geode_0.1.6_darwin_universal.tar.gz"
-  sha256 "2430f65d66f0c84bb0a228bb25f0cbc18937d715c5971678c58c66932e806b43"
+  url "https://gitlab.com/api/v4/projects/devnw%2Fcodepros%2Fgeode%2Fgeode/packages/generic/geode/0.1.8/geode_0.1.8_darwin_universal.tar.gz"
+  sha256 "acebe3d0586372e29a3ff3e0bedabc226430c7fa8178bef2b384e1684490da96"
 
   def install
     bin.install "geode"
